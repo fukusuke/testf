@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: e6fd122091a2fc244a018c99a0e0680d
+guid: 304b0683e618f724fad029176803ce16
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: chocolate_cake
+    100002: open_box
     400000: //RootNode
-    400002: chocolate_cake
-    2100000: chocolate_cakeMat
-    2300000: chocolate_cake
-    3300000: chocolate_cake
-    4300000: chocolate_cake
+    400002: open_box
+    2100000: open_boxMat
+    2300000: open_box
+    3300000: open_box
+    4300000: open_box
   externalObjects: {}
   materials:
     importMaterials: 1
