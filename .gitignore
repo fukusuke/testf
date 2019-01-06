@@ -39,3 +39,5 @@ Thumbs.db
 *.log #log files, for some plugins
 *.pyc #python bytecode cache, for some plugins.
 sysinfo.txt #Unity3D Generated File On Crash Reports
+Assets/Oculus/VR/Plugins/1.32.0/Win64/OVRPlugin.dll
+Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll
