@@ -14,19 +14,35 @@ namespace CUSTOMER_SERVICE
 			// 初期位置
 			transform.position = new Vector3(27.5f, 6.7f, 3.9f);
 
-			Sequence testSequence = DOTween.Sequence();
 			Vector3[] paths = new [] {
-				new Vector3(20f, 10f, 0f),
-				new Vector3(9.6f, 1.2f, 2.3f),
-				new Vector3(8.6f, 2.1f, 0.4f),
+				new Vector3(20f, 2.3f, -0.5f),
+				new Vector3(8.33f, 1.46f, 3.26f),
 			};
-			testSequence.Append(
-				transform.DOPath(
-					paths,
-					5.0f,
-					PathType.CatmullRom
-				)
-			);
+
+            DOTween.Sequence().Append(
+                transform.DOPath(
+                    paths,
+                    5f,
+                    PathType.CatmullRom
+                )
+            )
+            .Append(
+                transform.DOPath(
+                    new Vector3[]{
+                        new Vector3(4.8f, 1.11f, 3.26f),
+                        new Vector3(4f, 0.52f, -1.46f),
+                    },
+                    4f,
+                    PathType.CatmullRom
+                )
+             )
+             .Join(
+                transform.DORotate(
+                    new Vector3(0f, -270f, 0f),
+                    4f
+                )
+             )
+             .SetDelay(3f);
 		}
 		
 		// Update is called once per frame

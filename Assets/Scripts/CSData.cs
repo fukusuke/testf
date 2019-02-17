@@ -23,7 +23,10 @@ namespace CUSTOMER_SERVICE
 		public const string SANTNORE = "santnore";
 		public const string SHORT_CAKE = "ShortCake";
 		public const string TIRAMISE = "tiramisu";
-		/* ----- Cake -----*/
+        /* ----- Cake -----*/
+
+        public Vector3 gameStartPosition = new Vector3(-2f, 0.5f, -1.5f);
+        public Vector3 gameSatrtRotation = new Vector3(0, -270f, 0);
 
 		private static CSData instance;
 	    public static CSData Instance
