@@ -1,7 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using Valve.VR;
 
 namespace CUSTOMER_SERVICE
 {
@@ -42,13 +43,7 @@ namespace CUSTOMER_SERVICE
                     4f
                 )
              )
-             .SetDelay(3f);
-		}
-		
-		// Update is called once per frame
-		void Update ()
-		{
-			
+             .SetDelay(3f); 
 		}
 	}
 }

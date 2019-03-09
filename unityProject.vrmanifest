@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.customerservicevr.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\fukus\\Documents\\UnityProject\\testf\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "CustomerServiceVR [Testing]"
+        }
+      }
+    }
+  ]
+}
